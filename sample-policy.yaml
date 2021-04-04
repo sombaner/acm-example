@@ -70,7 +70,7 @@ metadata:
   name: binding-appuio-acm-sample-policy
   namespace: appuio-acm-sample-policy
 placementRef:
-  name: rancher-cloudscale-staging
+  name: k8s-staging
   kind: PlacementRule
   apiGroup: apps.open-cluster-management.io
 subjects:
@@ -81,7 +81,7 @@ subjects:
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: rancher-cloudscale-staging
+  name: k8s-staging
   namespace: appuio-acm-sample-policy
 spec:
   clusterConditions:
@@ -92,4 +92,4 @@ spec:
     - key: name
       operator: In
       values:
-      - "rancher-cloudscale-staging"
+      - "k8s-staging"

@@ -44,16 +44,16 @@ spec:
   placement:
     placementRef:
       kind: PlacementRule
-      name: ocp3-cloudscale-staging
+      name: stage-prod
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   labels:
     app: appuio-acm-sample-app
-  name: ocp3-cloudscale-staging
+  name: stage-prod
   namespace: appuio-acm-sample-app
 spec:
   clusterSelector:
     matchLabels:
-      'name': 'ocp3-cloudscale-staging'
+      'stage': 'prod'
