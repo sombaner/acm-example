@@ -7,8 +7,6 @@ Some application and policy samples for Red Hat's Advanced Cluster Management.
 
 Install ACM according the [product documentation](https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes/2.0/html/install/installing).
 
-Optional: You can use the provided [multiclusterhub_multiclusterhub.yaml](multiclusterhub_multiclusterhub.yaml) to deploy a MultiClusterHub in its basic variant to save resources.
-
 
 ## Usage
 
