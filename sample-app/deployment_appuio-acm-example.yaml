@@ -16,5 +16,5 @@ spec:
     spec:
       containers:
       - name: example-php-docker-helloworld
-        image: appuio/example-php-docker-helloworld
+        image: quay.io/appuio/example-php-docker-helloworld
         imagePullPolicy: Always
