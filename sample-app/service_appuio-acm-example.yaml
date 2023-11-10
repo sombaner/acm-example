@@ -5,7 +5,7 @@ metadata:
     app: appuio-acm-example
   name: appuio-acm-example
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: appuio-acm-example
   ports:
