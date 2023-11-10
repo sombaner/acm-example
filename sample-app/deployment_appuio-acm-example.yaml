@@ -18,3 +18,8 @@ spec:
       - name: example-php-docker-helloworld
         image: quay.io/appuio/example-php-docker-helloworld
         imagePullPolicy: Always
+        ports:
+          - containerPort: 8080
+            protocol: TCP
+          - containerPort: 9090
+            protocol: TCP
